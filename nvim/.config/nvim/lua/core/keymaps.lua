@@ -134,3 +134,10 @@ map("t", "<F7>", "<cmd>ToggleTerm<cr>", { desc = "Toggle Terminal" })
 
 map("n", "<leader>db", "<cmd>DapToggleBreakpoint<cr>", { desc = "Add breakpoint at line" })
 map("n", "<leader>dr", "<cmd>DapContinue<cr>", { desc = "Start or continue the debugger" })
+
+-- --------------------------------------------------------------------------------------------------------------------
+
+-- Diagnositcs
+
+map("n", "<leader>[[", "<cmd>lua vim.diagnostic.goto_prev()<cr>", { desc = "Go to previous error" })
+map("n", "<leader>]]", "<cmd>lua vim.diagnostic.goto_next()<cr>", { desc = "Go to next error" })
