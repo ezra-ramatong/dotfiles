@@ -84,11 +84,13 @@ function M.config()
 
 	wk.register({
 		b = { name = names.b, c = names.bc },
+		d = { name = names.d },
 		f = { name = names.f },
 		g = { name = names.g, h = "Hunk (gitsigns)" },
 		h = { name = get_icon("Home", 1, true) .. "Home" },
-		l = { name = get_icon("ActiveLSP", 1, true) .. "LSP" },
+		l = { name = names.l },
 		q = { name = get_icon("Quit", 1, true) .. "Quit" },
+		u = { name = names.u },
 		w = { name = get_icon("Save", 1, true) .. "Save" },
 	}, { prefix = "<leader>" })
 end
