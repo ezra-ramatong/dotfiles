@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+  <head>
+    <title>Liferea Feed List Export</title>
+  </head>
+  <body>
+    <outline title="Unread" text="Unread" description="Unread" type="vfolder" id="xgjaojc" sortColumn="time" matchType="any" unreadOnly="false" collapsed="true">
+      <outline type="rule" text="Read status" rule="unread" value="" additive="true"/>
+    </outline>
+    <outline title="Youtube" text="Youtube" description="Youtube" type="folder" id="iyaxtbj" sortColumn="time" collapsed="true">
+      <outline title="DistroTube" text="DistroTube" description="DistroTube" type="atom" id="bwtkppx" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg" htmlUrl="https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg" updateInterval="-1" collapsed="true"/>
+      <outline title="The Linux Cast" text="The Linux Cast" description="The Linux Cast" type="atom" id="xmgxdfq" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCylGUf9BvQooEFjgdNudoQg" htmlUrl="https://www.youtube.com/channel/UCylGUf9BvQooEFjgdNudoQg" updateInterval="-1" collapsed="true"/>
+      <outline title="TechHut" text="TechHut" description="TechHut" type="atom" id="owceeub" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCjSEJkpGbcZhvo0lr-44X_w" htmlUrl="https://www.youtube.com/channel/UCjSEJkpGbcZhvo0lr-44X_w" updateInterval="-1" collapsed="true"/>
+      <outline title="Veronica Explains" text="Veronica Explains" description="Veronica Explains" type="atom" id="dipurxm" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCMiyV_Ib77XLpzHPQH_q0qQ" htmlUrl="https://www.youtube.com/channel/UCMiyV_Ib77XLpzHPQH_q0qQ" updateInterval="-1" collapsed="true"/>
+      <outline title="Brodie Robertson" text="Brodie Robertson" description="Brodie Robertson" type="atom" id="wwcyylq" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA" htmlUrl="https://www.youtube.com/channel/UCld68syR8Wi-GY_n4CaoJGA" updateInterval="-1" collapsed="true"/>
+      <outline title="Chris Titus Tech" text="Chris Titus Tech" description="Chris Titus Tech" type="atom" id="lsryorj" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCg6gPGh8HU2U01vaFCAsvmQ" htmlUrl="https://www.youtube.com/channel/UCg6gPGh8HU2U01vaFCAsvmQ" updateInterval="-1" collapsed="true"/>
+      <outline title="Web Dev Cody" text="Web Dev Cody" description="Web Dev Cody" type="atom" id="dugoius" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCsrVDPJBYeXItETFHG0qzyw" htmlUrl="https://www.youtube.com/channel/UCsrVDPJBYeXItETFHG0qzyw" updateInterval="-1" collapsed="true"/>
+      <outline title="Kevin Powell" text="Kevin Powell" description="Kevin Powell" type="atom" id="nelditn" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJZv4d5rbIKd4QHMPkcABCw" htmlUrl="https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw" updateInterval="-1" collapsed="true"/>
+      <outline title="Josh tried coding" text="Josh tried coding" description="Josh tried coding" type="atom" id="axrmshs" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCvGwM5woTl13I-qThI4YMCg" htmlUrl="https://www.youtube.com/channel/UCvGwM5woTl13I-qThI4YMCg" updateInterval="-1" collapsed="true"/>
+      <outline title="Dreams of Code" text="Dreams of Code" description="Dreams of Code" type="atom" id="gudehue" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCWQaM7SpSECp9FELz-cHzuQ" htmlUrl="https://www.youtube.com/channel/UCWQaM7SpSECp9FELz-cHzuQ" updateInterval="-1" collapsed="true"/>
+    </outline>
+    <outline title="Reddit" text="Reddit" description="Reddit" type="folder" id="ccqjkma" sortColumn="time" expanded="true">
+      <outline title="r/Neovim" text="r/Neovim" description="r/Neovim" type="atom" id="kwocctj" sortColumn="time" sortReversed="false" xmlUrl="https://www.reddit.com/r/neovim.rss" htmlUrl="https://www.reddit.com/r/neovim" updateInterval="-1" collapsed="true"/>
+      <outline title="r/Soccer" text="r/Soccer" description="r/Soccer" type="atom" id="uhxfyaj" sortColumn="time" xmlUrl="https://www.reddit.com/r/soccer.rss" htmlUrl="https://www.reddit.com/r/soccer" updateInterval="-1" collapsed="true"/>
+      <outline title="/r/RedDevils: The Reddit home for Manchester United" text="/r/RedDevils: The Reddit home for Manchester United" description="/r/RedDevils: The Reddit home for Manchester United" type="atom" id="uigmqko" sortColumn="time" xmlUrl="https://www.reddit.com/r/reddevils.rss" htmlUrl="https://www.reddit.com/r/reddevils" updateInterval="-1" collapsed="true"/>
+    </outline>
+    <outline title="Open Source" text="Open Source" description="Open Source" type="folder" id="jpsgmhx" sortColumn="time" collapsed="true">
+      <outline title="Megatools News" text="Megatools News" description="Megatools News" type="rss" id="kkphogq" sortColumn="time" xmlUrl="https://megatools.megous.com/rss.xml" htmlUrl="http://megatools.megous.com/" updateInterval="-1" collapsed="true"/>
+      <outline title="Neovim" text="Neovim" description="Neovim" type="atom" id="tbrubde" sortColumn="time" xmlUrl="https://neovim.io/news.xml" htmlUrl="https://neovim.io/" updateInterval="-1" collapsed="true"/>
+      <outline title="Arch Linux: Recent news updates" text="Arch Linux: Recent news updates" description="Arch Linux: Recent news updates" type="rss" id="ivjmaee" sortColumn="time" xmlUrl="https://archlinux.org/feeds/news/" htmlUrl="https://archlinux.org/news/" updateInterval="-1" collapsed="true"/>
+      <outline title="Arch Linux: Recent package updates" text="Arch Linux: Recent package updates" description="Arch Linux: Recent package updates" type="rss" id="qnyoltd" sortColumn="time" xmlUrl="https://archlinux.org/feeds/packages/" htmlUrl="https://archlinux.org/packages/" updateInterval="-1" collapsed="true"/>
+      <outline title="This Week in Neovim RSS Feed" text="This Week in Neovim RSS Feed" description="This Week in Neovim RSS Feed" type="rss" id="qahvmmh" sortColumn="time" xmlUrl="https://dotfyle.com/this-week-in-neovim/rss.xml" htmlUrl="https://dotfyle.com/this-week-in-neovim" updateInterval="-1" collapsed="true"/>
+      <outline title="Recent Commits to neovim:master" text="Recent Commits to neovim:master" description="Recent Commits to neovim:master" type="atom" id="hhcxxbi" sortColumn="time" xmlUrl="http://github.com/neovim/neovim/commits/master/runtime/doc/news.txt.atom" htmlUrl="https://github.com/neovim/neovim/commits/master/runtime/doc/news.txt" updateInterval="-1" collapsed="true"/>
+    </outline>
+    <outline title="Blogs" text="Blogs" description="Blogs" type="folder" id="tbtryys" sortColumn="time" expanded="true">
+      <outline title="The Valuable Dev" text="The Valuable Dev" description="The Valuable Dev" type="rss" id="xdfioor" sortColumn="time" xmlUrl="https://thevaluable.dev/index.xml" htmlUrl="https://thevaluable.dev/" updateInterval="-1" collapsed="true"/>
+      <outline title="Hacker News" text="Hacker News" description="Hacker News" type="rss" id="rxjfwje" sortColumn="time" xmlUrl="https://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/" updateInterval="-1" collapsed="true"/>
+      <outline title="Smashing Magazine" text="Smashing Magazine" description="Smashing Magazine" type="rss" id="iedeeoq" sortColumn="time" xmlUrl="https://www.smashingmagazine.com/feed/" htmlUrl="https://www.smashingmagazine.com/" updateInterval="-1" collapsed="true"/>
+      <outline title="web.dev" text="web.dev" description="web.dev" type="atom" id="ufaukkg" sortColumn="time" xmlUrl="https://web.dev/feed.xml" htmlUrl="https://web.dev" updateInterval="-1" collapsed="true"/>
+      <outline title="Ahmad Shadeed" text="Ahmad Shadeed" description="Ahmad Shadeed" type="rss" id="wvnjmwp" sortColumn="time" xmlUrl="https://ishadeed.com/feed.xml" htmlUrl="https://ishadeed.com/" updateInterval="-1" collapsed="true"/>
+      <outline title="Anthony Fu" text="Anthony Fu" description="Anthony Fu" type="rss" id="qtuanno" sortColumn="time" xmlUrl="https://antfu.me/feed.xml" htmlUrl="https://antfu.me/" updateInterval="-1" collapsed="true"/>
+      <outline title="Nathan Long" text="Nathan Long" description="Nathan Long" type="atom" id="ooaoygw" sortColumn="time" xmlUrl="https://nathan-long.com/feed/feed.xml" htmlUrl="https://nathan-long.com/" updateInterval="-1" collapsed="true"/>
+      <outline title="Josiah Spence" text="Josiah Spence" description="Josiah Spence" type="atom" id="sxsuubr" sortColumn="time" xmlUrl="https://josiahspence.com/feed.xml" htmlUrl="https://josiahspence.com/" updateInterval="-1" collapsed="true"/>
+      <outline title="Lea Verou’s blog" text="Lea Verou’s blog" description="Lea Verou’s blog" type="atom" id="ljqvvct" sortColumn="time" xmlUrl="https://lea.verou.me/feed.xml" htmlUrl="https://lea.verou.me/" updateInterval="-1" collapsed="true"/>
+      <outline title="Gwendolyn Faraday" text="Gwendolyn Faraday" description="Gwendolyn Faraday" type="rss" id="spxdutj" sortColumn="time" xmlUrl="https://gwenfaraday.com/rss/" htmlUrl="https://gwenfaraday.com/" updateInterval="-1" collapsed="true"/>
+      <outline title="Una Kravets Online" text="Una Kravets Online" description="Una Kravets Online" type="rss" id="fdnsmru" sortColumn="time" xmlUrl="https://una.im/rss.xml" htmlUrl="https://una.im/" updateInterval="-1" collapsed="true"/>
+    </outline>
+    <outline title="Music Publications" text="Music Publications" description="Music Publications" type="folder" id="oyyqchm" sortColumn="time" collapsed="true">
+      <outline title="Aquarium Drunkard" text="Aquarium Drunkard" description="Aquarium Drunkard" type="rss" id="qasgnja" sortColumn="time" xmlUrl="https://aquariumdrunkard.com/feed" htmlUrl="https://aquariumdrunkard.com" updateInterval="-1" collapsed="true"/>
+      <outline title="Obscure Sound" text="Obscure Sound" description="Obscure Sound" type="rss" id="edppree" sortColumn="time" xmlUrl="https://www.obscuresound.com/feed/" htmlUrl="https://www.obscuresound.com/" updateInterval="-1" collapsed="true"/>
+      <outline title="The Quietus | All Articles" text="The Quietus | All Articles" description="The Quietus | All Articles" type="atom" id="iwtcvbw" sortColumn="time" xmlUrl="https://thequietus.com/feed" htmlUrl="https://thequietus.com" updateInterval="-1" collapsed="true"/>
+      <outline title="Clash Magazine" text="Clash Magazine" description="Clash Magazine" type="rss" id="djonlko" sortColumn="time" xmlUrl="https://www.clashmusic.com/feed/" htmlUrl="https://www.clashmusic.com/" updateInterval="-1" collapsed="true"/>
+      <outline title="Pitchfork" text="Pitchfork" description="Pitchfork" type="rss" id="prsiwbe" sortColumn="time" xmlUrl="https://pitchfork.com/feed/feed-news/rss" htmlUrl="https://pitchfork.com" updateInterval="-1" collapsed="true"/>
+    </outline>
+    <outline title="To Read / Watch" text="To Read / Watch" description="To Read / Watch" type="vfolder" id="xnrbfbk" sortColumn="time" matchType="any" unreadOnly="false" collapsed="true">
+      <outline type="rule" text="Flag status" rule="flagged" value="" additive="true"/>
+    </outline>
+  </body>
+</opml>
