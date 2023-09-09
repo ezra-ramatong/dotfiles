@@ -35,14 +35,7 @@ export NVM_DIR="$HOME/.nvm"
 source $HOME/.config/zsh/aliases.zsh
 
 # Exports
-# Default Programs
-export EDITOR="vim"
-export VISUAL="$EDITOR"
-export TERMINAL="alacritty"
-export BROWSER="firefox"
-
-# Rofi Applets, Launchers and Powermenu scrips
-export PATH=$HOME/.config/rofi/scripts:$PATH
+source $HOME/.config/zsh/exports.zsh
 
 # Plugins
 source $HOME/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
