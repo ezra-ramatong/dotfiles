@@ -4,6 +4,7 @@ export EDITOR="nvim"
 export VISUAL="$EDITOR"
 export TERMINAL="alacritty"
 export BROWSER="firefox"
+export GIT_EDITOR="$EDITOR"
 
 # History
 export HISTFILE=~/.cache/zsh/history
