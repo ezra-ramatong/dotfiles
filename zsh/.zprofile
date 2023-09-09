@@ -4,8 +4,8 @@ XDG_CONFIG_HOME="$HOME/.config"
 XDG_DATA_HOME="$HOME/.local/share"
 
 # Move config files in $HOME/  to ~$HOME/.config/zsh
-export ZDOTDIR="$HOME/.config/zsh"
-export GTK2_RC_FILES="$HOME/.config/gtk-2.0/gtkrc-2.0"
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc-2.0"
 
 # Autostart X
 
