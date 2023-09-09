@@ -15,6 +15,9 @@ HISTFILE=~/.cache/zsh/history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt autocd
+setopt correct
+setopt auto_menu
+setopt menu_complete
 unsetopt beep
 bindkey -v
 export KEYTIMEOUT=1
