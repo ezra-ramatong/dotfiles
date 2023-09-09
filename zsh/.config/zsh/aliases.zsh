@@ -11,6 +11,7 @@ alias i3config='vim ~/.config/i3/config'
 alias picomconfig='vim ~/.config/picom/picom.conf'
 alias polybarconfig='vim ~/.config/polybar/config.ini'
 alias zshrc='vim ~/.config/zsh/.zshrc'
+alias aliases='vim ~/.config/zsh/aliases.zsh'
 alias nvimc='~/.config/nvim/ && vim'
 
 # Package Managers
