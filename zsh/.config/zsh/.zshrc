@@ -14,15 +14,15 @@ zstyle ':vcs_info:*' check-for-changes true
 zstyle ':vcs_info:*' unstagedstr ' *'
 zstyle ':vcs_info:*' stagedstr ' +'
 # Set the format of the Git information for vcs_info
-zstyle ':vcs_info:git:*' formats       '(%b%u%c)'
-zstyle ':vcs_info:git:*' actionformats '(%b|%a%u%c)'
+zstyle ':vcs_info:git:*' formats       '( %b%u%c)'
+zstyle ':vcs_info:git:*' actionformats '( %b|%a%u%c)'
 
 zstyle ':completion:*' menu select
 
 # Options
 setopt PROMPT_SUBST
 PROMPT='%B%F{yellow}[%F{yellow}EZRA%f %F{red}@%f %B%F{blue}MACHINA]%f%b %F{green}%B󰘧%b%f '
-RPROMPT='%F{blue}%~%f %F{red} ${vcs_info_msg_0_}%f'
+RPROMPT='%F{blue}%~%f %F{red} ${vcs_info_msg_0_}%f'
 setopt autocd
 setopt correct
 setopt auto_menu
