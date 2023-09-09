@@ -41,4 +41,6 @@ source $HOME/.config/zsh/aliases.zsh
 source $HOME/.config/zsh/exports.zsh
 
 # Plugins
-source $HOME/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.config/zsh/plugins/bd/bd.zsh
+source $HOME/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOME/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh # must be last
