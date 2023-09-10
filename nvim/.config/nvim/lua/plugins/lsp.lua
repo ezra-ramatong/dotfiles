@@ -82,6 +82,19 @@ function M.config()
 
 	-- Diagnostics
 	local get_icon = require("core.utils").get_icon
+	local function border(hl_name)
+		return {
+			{ "╭", hl_name },
+			{ "─", hl_name },
+			{ "╮", hl_name },
+			{ "│", hl_name },
+			{ "╯", hl_name },
+			{ "─", hl_name },
+			{ "╰", hl_name },
+			{ "│", hl_name },
+		}
+	end
+
 	local sign = function(opts)
 		vim.fn.sign_define(opts.name, {
 			texthl = opts.name,
@@ -93,7 +106,7 @@ function M.config()
 		virtual_text = false,
 		severity_sort = true,
 		float = {
-			border = "rounded",
+			border = border("IndentLine"),
 			source = "always",
 		},
 	}
@@ -112,7 +125,7 @@ function M.config()
 			local opts = {
 				focusable = false,
 				close_events = { "BufLeave", "CursorMoved", "InsertEnter", "FocusLost" },
-				border = "rounded",
+				border = border("IndentLine"),
 				source = "always",
 				prefix = " ",
 				scope = "cursor",
@@ -122,9 +135,9 @@ function M.config()
 	})
 
 	-- Help windows with borders
-	vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, { border = "rounded" })
+	vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, { border = border("IndentLine") })
 	vim.lsp.handlers["textDocument/signatureHelp"] =
-		vim.lsp.with(vim.lsp.handlers.signature_help, { border = "rounded" })
+		vim.lsp.with(vim.lsp.handlers.signature_help, { border = border("IndentLine") })
 end
 
 return M
