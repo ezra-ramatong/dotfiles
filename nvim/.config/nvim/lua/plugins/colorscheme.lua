@@ -23,6 +23,8 @@ function M.config()
 			},
 		},
 		highlights = {
+			NormalFloat = { bg = "#282c34" },
+			Pmenu = { bg = "${telescope_results}" },
 			BufferLineFill = { bg = "#282c34" },
 			WinSeparator = { fg = "#3b4048" },
 			LineNr = {
