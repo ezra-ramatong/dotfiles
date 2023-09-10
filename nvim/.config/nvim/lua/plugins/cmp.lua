@@ -51,7 +51,23 @@ function M.config()
 		TypeParameter = " ",
 	}
 
+	local function border(hl_name)
+		return {
+			{ "╭", hl_name },
+			{ "─", hl_name },
+			{ "╮", hl_name },
+			{ "│", hl_name },
+			{ "╯", hl_name },
+			{ "─", hl_name },
+			{ "╰", hl_name },
+			{ "│", hl_name },
+		}
+	end
+
 	cmp.setup({
+		completion = {
+			completeopt = "menu,menuone",
+		},
 		snippet = {
 			expand = function(args)
 				luasnip.lsp_expand(args.body)
@@ -116,11 +132,17 @@ function M.config()
 			end, { "i", "s" }),
 		},
 		window = {
-			completion = cmp.config.window.bordered(),
-			documentation = cmp.config.window.bordered(),
-			winhighlight = "Normal:Pmenu,FloatBorder:Pmenu,Search:None",
-			col_offset = -3,
-			side_padding = 0,
+			completion = {
+				border = border("IndentLine"),
+				winhighlight = "Normal:Normal,CursorLine:Visual,Search:PmenuSel",
+				scrollbar = false,
+				side_padding = 1,
+				col_offset = -1,
+			},
+			documentation = {
+				border = border("IndentLine"),
+				winhighlight = "Normal:Normal",
+			},
 		},
 		formatting = {
 			format = function(entry, vim_item)
