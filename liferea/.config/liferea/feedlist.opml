@@ -20,7 +20,7 @@
       <outline title="Dreams of Code" text="Dreams of Code" description="Dreams of Code" type="atom" id="gudehue" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCWQaM7SpSECp9FELz-cHzuQ" htmlUrl="https://www.youtube.com/channel/UCWQaM7SpSECp9FELz-cHzuQ" updateInterval="-1" collapsed="true"/>
     </outline>
     <outline title="Reddit" text="Reddit" description="Reddit" type="folder" id="ccqjkma" sortColumn="time" expanded="true">
-      <outline title="r/Neovim" text="r/Neovim" description="r/Neovim" type="atom" id="kwocctj" sortColumn="time" sortReversed="false" xmlUrl="https://www.reddit.com/r/neovim.rss" htmlUrl="https://www.reddit.com/r/neovim" updateInterval="-1" collapsed="true"/>
+      <outline title="Neovim" text="Neovim" description="Neovim" type="atom" id="saeqfbi" sortColumn="time" xmlUrl="https://www.reddit.com/r/neovim.rss" htmlUrl="https://www.reddit.com/r/neovim" updateInterval="-1" collapsed="true"/>
       <outline title="r/Soccer" text="r/Soccer" description="r/Soccer" type="atom" id="uhxfyaj" sortColumn="time" xmlUrl="https://www.reddit.com/r/soccer.rss" htmlUrl="https://www.reddit.com/r/soccer" updateInterval="-1" collapsed="true"/>
       <outline title="/r/RedDevils: The Reddit home for Manchester United" text="/r/RedDevils: The Reddit home for Manchester United" description="/r/RedDevils: The Reddit home for Manchester United" type="atom" id="uigmqko" sortColumn="time" xmlUrl="https://www.reddit.com/r/reddevils.rss" htmlUrl="https://www.reddit.com/r/reddevils" updateInterval="-1" collapsed="true"/>
     </outline>
