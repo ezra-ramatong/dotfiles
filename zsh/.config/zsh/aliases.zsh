@@ -43,13 +43,17 @@ alias pacrs='sudo pacman -Rs'     # remove package with unused dependencies by o
 alias pacu='sudo pacman -Syu'   # update 
 
 # Git aliases
-alias gs='git status'
 alias ga='git add'
-alias gp='git push'
+alias gb='git branch'
+alias gbd='git branch -d'
 alias gc='git commit'
+alias gco='git checkout'
 alias gd='git diff'
 alias gl='git log'
 alias glo='git log --pretty="oneline"'
+alias gp='git push'
+alias gpo='git push origin'
+alias gs='git status'
 
 # Personal
 alias dev='cd $HOME/dev'
