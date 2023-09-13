@@ -7,7 +7,7 @@
     <outline title="Unread" text="Unread" description="Unread" type="vfolder" id="xgjaojc" sortColumn="time" matchType="any" unreadOnly="false" collapsed="true">
       <outline type="rule" text="Read status" rule="unread" value="" additive="true"/>
     </outline>
-    <outline title="Youtube" text="Youtube" description="Youtube" type="folder" id="iyaxtbj" sortColumn="time" collapsed="true">
+    <outline title="Youtube" text="Youtube" description="Youtube" type="folder" id="iyaxtbj" sortColumn="time" expanded="true">
       <outline title="DistroTube" text="DistroTube" description="DistroTube" type="atom" id="bwtkppx" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg" htmlUrl="https://www.youtube.com/channel/UCVls1GmFKf6WlTraIb_IaJg" updateInterval="-1" collapsed="true"/>
       <outline title="The Linux Cast" text="The Linux Cast" description="The Linux Cast" type="atom" id="xmgxdfq" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCylGUf9BvQooEFjgdNudoQg" htmlUrl="https://www.youtube.com/channel/UCylGUf9BvQooEFjgdNudoQg" updateInterval="-1" collapsed="true"/>
       <outline title="TechHut" text="TechHut" description="TechHut" type="atom" id="owceeub" sortColumn="time" xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCjSEJkpGbcZhvo0lr-44X_w" htmlUrl="https://www.youtube.com/channel/UCjSEJkpGbcZhvo0lr-44X_w" updateInterval="-1" collapsed="true"/>
