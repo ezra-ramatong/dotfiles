@@ -11,7 +11,7 @@ opt.cmdheight = 1
 opt.completeopt = { "menuone", "noselect" }
 opt.cindent = true
 --opt.copyindent = true
---opt.colorcolumn = "120"
+opt.colorcolumn = "120"
 --opt.cursorline = true
 opt.expandtab = true
 opt.fillchars = { eob = " " }
