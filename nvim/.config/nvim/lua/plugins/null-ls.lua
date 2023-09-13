@@ -49,27 +49,9 @@ function M.config()
 		end,
 		debug = false,
 		sources = {
-			--[[ formatting.prettierd.with({
-				extra_filetypes = { "toml" },
-				--extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" },
-			}), ]]
-			--[[ formatting.prettierd.with({
-				filetypes = {
-					"javascript",
-					"typescript",
-					"css",
-					"scss",
-					--"html",
-					"json",
-					"yaml",
-					"markdown",
-					"graphql",
-					"md",
-					"txt",
-				},
-			}), ]]
 			formatting.black.with({ extra_args = { "--fast" } }), -- python
 			formatting.stylua,
+			formatting.dprint,
 			-- formatting.clang_format,
 			code_actions.eslint_d,
 			--diagnostics.eslint_d,
