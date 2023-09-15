@@ -54,6 +54,7 @@ alias glo='git log --pretty="oneline"'
 alias gm='git merge'
 alias gp='git push'
 alias gpo='git push origin'
+alias grmr='git rm -r'
 alias gs='git status'
 
 # Personal
