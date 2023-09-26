@@ -15,8 +15,10 @@ alias md='mkdir'
 alias pg='ping 8.8.8.8'
 alias vim='nvim'
 
-# nmtui
+# Network Manager
 alias wifi='nmtui'
+alias wifion='nmcli device connect wlp2s0'
+alias wifioff='nmcli device disconnect wlp2s0'
 
 # Configs
 alias alaconfig='vim ~/.config/alacritty/alacritty.yml'
@@ -27,6 +29,7 @@ alias zshrc='vim ~/.config/zsh/.zshrc'
 alias sourcez='source $HOME/.config/zsh/.zshrc'
 alias sourcea='source $HOME/.config/zsh/aliases.zsh'
 alias sourceex='source $HOME/.config/zsh/exports.zsh'
+alias sourcezsh='sourcez && sourcea && sourceex'
 alias aliases='vim ~/.config/zsh/aliases.zsh'
 alias nvimc='~/.config/nvim/ && vim'
 
@@ -56,6 +59,9 @@ alias gp='git push'
 alias gpo='git push origin'
 alias grmr='git rm -r'
 alias gs='git status'
+
+# -- Clang aliases
+alias ccc='clang++ -o' # compile .cpp file
 
 # Personal
 alias dev='cd $HOME/dev'
