@@ -14,6 +14,7 @@ alias la='ls -la'
 alias md='mkdir'
 alias pg='ping 8.8.8.8'
 alias vim='nvim'
+alias st='timedatectl set-ntp yes'
 
 # Network Manager
 alias wifi='nmtui'
