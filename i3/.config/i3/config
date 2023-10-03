@@ -219,7 +219,7 @@ bindsym $mod+n exec alacritty -e nvim ~/.config/nvim
 
 # Window
 
-default_border pixel 0
+default_border pixel 1
 #smart_borders on
 
 gaps inner 20px
