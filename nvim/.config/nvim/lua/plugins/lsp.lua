@@ -25,7 +25,7 @@ function M.config()
 		},
 		cssls = {},
 		html = {},
-		gopls = {},
+		-- gopls = {},
 		emmet_ls = {},
 		pyright = {},
 		clangd = {},
