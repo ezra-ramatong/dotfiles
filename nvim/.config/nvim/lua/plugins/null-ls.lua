@@ -51,7 +51,7 @@ function M.config()
 		sources = {
 			formatting.black.with({ extra_args = { "--fast" } }), -- python
 			formatting.stylua,
-			formatting.dprint,
+			-- formatting.dprint,
 			-- formatting.clang_format,
 			code_actions.eslint_d,
 			--diagnostics.eslint_d,
