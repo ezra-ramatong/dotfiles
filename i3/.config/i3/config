@@ -32,7 +32,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 #exec --no-startup-id nm-applet &
 
-#exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers/everforest-bg-dim.jpeg &
+exec_always --no-startup-id ~/.fehbg &
 
 #exec_always --no-startup-id picom
 
