@@ -49,9 +49,9 @@ alias pacrs='sudo pacman -Rs'     # remove package with unused dependencies by o
 alias pacu='sudo pacman -Syu'   # update 
 
 # -- dnf
-alias dnf='sudo dnf install'
-alias dnfu='sudo dnf upgrade'
-alias dnfr='sudo dnf remove'
+#alias dnf='sudo dnf install'
+#alias dnfu='sudo dnf upgrade'
+#alias dnfr='sudo dnf remove'
 
 # Git aliases
 alias ga='git add'

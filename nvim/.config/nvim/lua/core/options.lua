@@ -68,10 +68,11 @@ g.netrw_winsize = 20
 g.netrw_hide = 1
 
 -- Closetag options
-g.closetag_filenames = "*.html,*.xhtml,*.phtml"
-g.closetag_xhtml_filenames = "*.xhtml,*.jsx"
-g.closetag_filetypes = "html,xhtml,phtml"
-g.closetag_xhtml_filetypes = "xhtml,jsx"
+g.closetag_filetypes = "html,js,typescriptreact, javascriptreact"
 g.closetag_emptyTags_caseSensitive = 1
+g.closetag_regions = {
+	["typescript.tsx"] = "jsxRegion,tsxRegion",
+	["javascript.jsx"] = "jsxRegion",
+}
 g.closetag_shortcut = ">"
-g.closetag_close_shortcut = "<leader>>"
+g.enable_react_fragment = 1
