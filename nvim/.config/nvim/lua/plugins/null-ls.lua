@@ -51,6 +51,24 @@ function M.config()
 		sources = {
 			formatting.black.with({ extra_args = { "--fast" } }), -- python
 			formatting.stylua,
+			formatting.prettierd.with({
+				filetypes = {
+					"javascript",
+					"typescript",
+					"typescriptreact",
+					"javascriptreact",
+					"css",
+					"scss",
+					-- "html",
+					"json",
+					"yaml",
+					"markdown",
+					"graphql",
+					"md",
+					"txt",
+				},
+				-- extra_args = { "--no-semi", "--single-quote" },
+			}),
 			-- formatting.dprint,
 			-- formatting.clang_format,
 			code_actions.eslint_d,
