@@ -15,6 +15,8 @@ alias md='mkdir'
 alias pg='ping 8.8.8.8'
 alias vim='nvim'
 alias st='timedatectl set-ntp yes'
+alias sn='shutdown now'
+alias rb='reboot'
 
 # Network Manager
 alias wifi='nmtui'
@@ -45,6 +47,11 @@ alias pac='sudo pacman -S'        # install
 alias pacls='sudo pacman -Qe'     # list explicitly installed packages
 alias pacrs='sudo pacman -Rs'     # remove package with unused dependencies by other software
 alias pacu='sudo pacman -Syu'   # update 
+
+# -- dnf
+alias dnf='sudo dnf install'
+alias dnfu='sudo dnf upgrade'
+alias dnfr='sudo dnf remove'
 
 # Git aliases
 alias ga='git add'

@@ -199,7 +199,7 @@ bindsym $mod+r mode "resize"
 bindsym $mod+x exec i3lock
 
 # Firefox
-bindsym $mod+b exec firefox
+bindsym $mod+b exec flatpak run org.mozilla.firefox
 
 # Thunar
 bindsym $mod+t exec thunar
