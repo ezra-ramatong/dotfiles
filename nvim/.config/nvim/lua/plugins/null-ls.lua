@@ -72,7 +72,7 @@ function M.config()
 			-- formatting.dprint,
 			-- formatting.clang_format,
 			code_actions.eslint_d,
-			--diagnostics.eslint_d,
+			diagnostics.eslint_d,
 			diagnostics.flake8, -- python
 			-- diagnostics.pylint,
 		},
