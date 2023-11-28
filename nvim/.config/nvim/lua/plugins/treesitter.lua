@@ -28,7 +28,7 @@ function M.config()
 		-- autotag = { enable = true, },
 		highlight = { enable = true },
 		incremental_selection = { enable = true },
-		indent = { enable = true, disable = { "html" } },
+		indent = { enable = true, disable = { "html", "css" } },
 	})
 end
 
