@@ -71,6 +71,9 @@ alias gs='git status'
 # -- Clang aliases
 alias ccc='clang++ -o' # compile .cpp file
 
+# -- Live Server
+alias lsc='live-server --browser=chromium-browser'
+
 # Personal
 alias dev='cd $HOME/dev'
-alias notes='cd $HOME/.notes'
+alias notes='cd $HOME/Notes'
