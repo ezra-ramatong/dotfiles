@@ -17,19 +17,19 @@ window:
 
   #opacity: 1
 
-  startup_mode: Windowed  # Windowed | Maximized | Fullscreen
+  startup_mode: Windowed # Windowed | Maximized | Fullscreen
 
   #title: Alacritty
 
   dynamic_title: true
 
 #scrolling:
-  # Maximum number of lines in the scrollback buffer.
-  # Specifying '0' will disable scrolling.
-  #history: 10000
+# Maximum number of lines in the scrollback buffer.
+# Specifying '0' will disable scrolling.
+#history: 10000
 
-  # Scrolling distance multiplier.
-  #multiplier: 3
+# Scrolling distance multiplier.
+#multiplier: 3
 
 #------------------------------------------------------------------------------
 
@@ -63,7 +63,6 @@ selection:
 
   # When set to `true`, selected text will be copied to the primary clipboard.
   save_to_clipboard: true
-
 #------------------------------------------------------------------------------
 #shell:
 #  program: /bin/zsh
@@ -71,4 +70,3 @@ selection:
 #    - --login
 
 #------------------------------------------------------------------------------
-

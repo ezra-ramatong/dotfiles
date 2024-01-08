@@ -3,6 +3,9 @@
 # X11
 alias xpropc='xprop | grep WM_CLASS'
 
+# Wayland
+alias H='Hyprland'
+
 # General
 alias cp='cp -iv'
 alias mv='mv -iv'
@@ -35,6 +38,8 @@ alias sourceex='source $HOME/.config/zsh/exports.zsh'
 alias sourcezsh='sourcez && sourcea && sourceex'
 alias aliases='vim ~/.config/zsh/aliases.zsh'
 alias nvimc='~/.config/nvim/ && vim'
+alias hyprconfig='vim ~/.config/hypr/hyprland.conf'
+alias hyprkeybinds='vim ~/.config/hypr/keybinds.conf'
 
 # Package Managers
 # -- yay
@@ -73,6 +78,9 @@ alias ccc='clang++ -o' # compile .cpp file
 
 # -- Live Server
 alias lsc='live-server --browser=chromium-browser'
+
+# -- Dunst aliases
+alias dln='dunstctl history-pop'
 
 # Personal
 alias dev='cd $HOME/dev'

@@ -141,3 +141,8 @@ map("n", "<leader>dr", "<cmd>DapContinue<cr>", { desc = "Start or continue the d
 
 map("n", "<leader>[[", "<cmd>lua vim.diagnostic.goto_prev()<cr>", { desc = "Go to previous error" })
 map("n", "<leader>]]", "<cmd>lua vim.diagnostic.goto_next()<cr>", { desc = "Go to next error" })
+
+-- --------------------------------------------------------------------------------------------------------------------
+
+-- Custom Maps
+map ("n", "<leader>ncl", "<cmd>set formatoptions=tco<cr>", { desc = "Disable Comment Leader Insertion"})
