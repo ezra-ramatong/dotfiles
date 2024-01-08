@@ -1,0 +1,23 @@
+[global]
+frame_color = "#e5c07b"
+frame_width = 2
+separator_color = "#e5c07b"
+offset = 20x20
+font = "Inter Nerd Font Propo 10"
+line_height = 5
+corner_radius = 20
+
+[base16_low]
+    msg_urgency = low
+    background = "#222"
+    foreground = "#999"
+
+[base16_normal]
+    msg_urgency = normal
+    background = "#222"
+    foreground = "#fff"
+
+[base16_critical]
+    msg_urgency = critical
+    background = "#222"
+    foreground = "#e06c75"
